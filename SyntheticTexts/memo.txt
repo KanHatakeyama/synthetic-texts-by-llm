@@ -1,0 +1,1 @@
+ huggingface-cli upload kanhatakeyama/SyntheticText out_data . --repo-type dataset

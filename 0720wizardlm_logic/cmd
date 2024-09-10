@@ -1,0 +1,6 @@
+export HF_HOME="/gs/bs/tga-hatakeyama/hf_cache" 
+module load miniconda/24.1.2
+eval "$(/apps/t4/rhel9/free/miniconda/24.1.2/bin/conda shell.bash hook)"
+conda activate synthtext
+
+huggingface-cli download MaziyarPanahi/WizardLM-2-8x22B-GGUF --local-dir . --include '*Q8_0*gguf'

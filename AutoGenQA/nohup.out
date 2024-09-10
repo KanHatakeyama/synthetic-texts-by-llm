@@ -1,0 +1,115 @@
+llama_model_loader: additional 3 GGUFs metadata loaded.
+llama_model_loader: loaded meta data with 29 key-value pairs and 563 tensors from ../../model/Mixtral-8x22B-Instruct-v0.1.Q8_0-00001-of-00004.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = models--mistralai--Mixtral-8x22B-Inst...
+llama_model_loader: - kv   2:                          llama.block_count u32              = 56
+llama_model_loader: - kv   3:                       llama.context_length u32              = 65536
+llama_model_loader: - kv   4:                     llama.embedding_length u32              = 6144
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 16384
+llama_model_loader: - kv   6:                 llama.attention.head_count u32              = 48
+llama_model_loader: - kv   7:              llama.attention.head_count_kv u32              = 8
+llama_model_loader: - kv   8:                       llama.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                         llama.expert_count u32              = 8
+llama_model_loader: - kv  11:                    llama.expert_used_count u32              = 2
+llama_model_loader: - kv  12:                          general.file_type u32              = 7
+llama_model_loader: - kv  13:                           llama.vocab_size u32              = 32768
+llama_model_loader: - kv  14:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv  15:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  16:                      tokenizer.ggml.tokens arr[str,32768]   = ["<unk>", "<s>", "</s>", "[INST]", "[...
+llama_model_loader: - kv  17:                      tokenizer.ggml.scores arr[f32,32768]   = [-1000.000000, -1000.000000, -1000.00...
+llama_model_loader: - kv  18:                  tokenizer.ggml.token_type arr[i32,32768]   = [3, 3, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  19:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  20:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  21:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  22:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  23:               tokenizer.ggml.add_eos_token bool             = false
+llama_model_loader: - kv  24:                    tokenizer.chat_template str              = {{bos_token}}{% for message in messag...
+llama_model_loader: - kv  25:               general.quantization_version u32              = 2
+llama_model_loader: - kv  26:                                   split.no u16              = 0
+llama_model_loader: - kv  27:                                split.count u16              = 4
+llama_model_loader: - kv  28:                        split.tensors.count i32              = 563
+llama_model_loader: - type  f32:  113 tensors
+llama_model_loader: - type  f16:   56 tensors
+llama_model_loader: - type q8_0:  394 tensors
+llm_load_vocab: mismatch in special tokens definition ( 1027/32768 vs 259/32768 ).
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = llama
+llm_load_print_meta: vocab type       = SPM
+llm_load_print_meta: n_vocab          = 32768
+llm_load_print_meta: n_merges         = 0
+llm_load_print_meta: n_ctx_train      = 65536
+llm_load_print_meta: n_embd           = 6144
+llm_load_print_meta: n_head           = 48
+llm_load_print_meta: n_head_kv        = 8
+llm_load_print_meta: n_layer          = 56
+llm_load_print_meta: n_rot            = 128
+llm_load_print_meta: n_embd_head_k    = 128
+llm_load_print_meta: n_embd_head_v    = 128
+llm_load_print_meta: n_gqa            = 6
+llm_load_print_meta: n_embd_k_gqa     = 1024
+llm_load_print_meta: n_embd_v_gqa     = 1024
+llm_load_print_meta: f_norm_eps       = 0.0e+00
+llm_load_print_meta: f_norm_rms_eps   = 1.0e-05
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: f_logit_scale    = 0.0e+00
+llm_load_print_meta: n_ff             = 16384
+llm_load_print_meta: n_expert         = 8
+llm_load_print_meta: n_expert_used    = 2
+llm_load_print_meta: causal attn      = 1
+llm_load_print_meta: pooling type     = 0
+llm_load_print_meta: rope type        = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 1000000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 65536
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: ssm_d_conv       = 0
+llm_load_print_meta: ssm_d_inner      = 0
+llm_load_print_meta: ssm_d_state      = 0
+llm_load_print_meta: ssm_dt_rank      = 0
+llm_load_print_meta: model type       = 8x22B
+llm_load_print_meta: model ftype      = Q8_0
+llm_load_print_meta: model params     = 140.63 B
+llm_load_print_meta: model size       = 139.16 GiB (8.50 BPW) 
+llm_load_print_meta: general.name     = models--mistralai--Mixtral-8x22B-Instruct-v0.1
+llm_load_print_meta: BOS token        = 1 '<s>'
+llm_load_print_meta: EOS token        = 2 '</s>'
+llm_load_print_meta: UNK token        = 0 '<unk>'
+llm_load_print_meta: LF token         = 781 '<0x0A>'
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:   no
+ggml_cuda_init: CUDA_USE_TENSOR_CORES: yes
+ggml_cuda_init: found 2 CUDA devices:
+  Device 0: NVIDIA H100, compute capability 9.0, VMM: yes
+  Device 1: NVIDIA H100, compute capability 9.0, VMM: yes
+llm_load_tensors: ggml ctx size =    0.84 MiB
+llm_load_tensors: offloading 56 repeating layers to GPU
+llm_load_tensors: offloading non-repeating layers to GPU
+llm_load_tensors: offloaded 57/57 layers to GPU
+llm_load_tensors:        CPU buffer size =   204.00 MiB
+llm_load_tensors:      CUDA0 buffer size = 73584.33 MiB
+llm_load_tensors:      CUDA1 buffer size = 68713.57 MiB
+....................................................................................................
+llama_new_context_with_model: n_ctx      = 4096
+llama_new_context_with_model: n_batch    = 512
+llama_new_context_with_model: n_ubatch   = 512
+llama_new_context_with_model: flash_attn = 0
+llama_new_context_with_model: freq_base  = 1000000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:      CUDA0 KV buffer size =   464.00 MiB
+llama_kv_cache_init:      CUDA1 KV buffer size =   432.00 MiB
+llama_new_context_with_model: KV self size  =  896.00 MiB, K (f16):  448.00 MiB, V (f16):  448.00 MiB
+llama_new_context_with_model:  CUDA_Host  output buffer size =     0.12 MiB
+llama_new_context_with_model: pipeline parallelism enabled (n_copies=4)
+llama_new_context_with_model:      CUDA0 compute buffer size =   512.01 MiB
+llama_new_context_with_model:      CUDA1 compute buffer size =   512.02 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =    44.02 MiB
+llama_new_context_with_model: graph nodes  = 2638
+llama_new_context_with_model: graph splits = 3
+AVX = 1 | AVX_VNNI = 0 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 1 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | MATMUL_INT8 = 0 | LLAMAFILE = 1 | 
+Model metadata: {'split.no': '0', 'tokenizer.chat_template': "{{bos_token}}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ ' [INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ ' ' + message['content'] + ' ' + eos_token}}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}", 'tokenizer.ggml.add_eos_token': 'false', 'split.count': '4', 'tokenizer.ggml.unknown_token_id': '0', 'tokenizer.ggml.eos_token_id': '2', 'general.quantization_version': '2', 'tokenizer.ggml.model': 'llama', 'llama.rope.dimension_count': '128', 'llama.vocab_size': '32768', 'general.architecture': 'llama', 'llama.rope.freq_base': '1000000.000000', 'tokenizer.ggml.add_bos_token': 'false', 'llama.embedding_length': '6144', 'llama.feed_forward_length': '16384', 'llama.attention.layer_norm_rms_epsilon': '0.000010', 'tokenizer.ggml.bos_token_id': '1', 'llama.attention.head_count': '48', 'llama.block_count': '56', 'llama.attention.head_count_kv': '8', 'llama.expert_count': '8', 'split.tensors.count': '563', 'llama.context_length': '65536', 'general.name': 'models--mistralai--Mixtral-8x22B-Instruct-v0.1', 'llama.expert_used_count': '2', 'general.file_type': '7'}
+Using gguf chat template: {{bos_token}}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ ' [INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ ' ' + message['content'] + ' ' + eos_token}}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}
+Using chat eos_token: </s>
+Using chat bos_token: <s>
